@@ -11,6 +11,7 @@ public class Branch extends AbsBranch {
 
     @Override
     public void add(Crop crop) {
+        crop.setParent(this);
         subOrdinateInfo.add(crop);
     }
 

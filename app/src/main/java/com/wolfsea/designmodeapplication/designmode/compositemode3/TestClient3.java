@@ -46,6 +46,8 @@ public class TestClient3 {
 
         System.out.println(root.toString());
         getSubOrdinateInfo(root.getSubOrdinateInfo());
+
+        System.out.println(leaf8.getParent().toString());
     }
 
     public static void getSubOrdinateInfo(ArrayList<Crop> subOrdinateInfo) {

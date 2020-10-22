@@ -6,6 +6,16 @@ public abstract class Crop {
     private String jobPosition;
     private int salary;
 
+    private Crop parent;
+
+    public Crop getParent() {
+        return parent;
+    }
+
+    protected void setParent(Crop parent) {
+        this.parent = parent;
+    }
+
     public Crop(String name, String jobPosition, int salary) {
 
         this.name = name;

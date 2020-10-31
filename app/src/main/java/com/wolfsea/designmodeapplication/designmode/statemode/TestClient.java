@@ -1,0 +1,18 @@
+package com.wolfsea.designmodeapplication.designmode.statemode;
+
+/**
+ * @author liuliheng
+ * @desc  测试类
+ * @time 2020/10/31  10:51
+ **/
+public class TestClient {
+
+    public static void main(String[] args) {
+
+        ILift lift = new Lift();
+        lift.open();
+        lift.close();
+        lift.run();
+        lift.stop();
+    }
+}
